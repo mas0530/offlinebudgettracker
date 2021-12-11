@@ -4,21 +4,23 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+        "type": "git",
+        "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+        "url": "https://github.com/coding-boot-camp/unit18hw/issues"
     },
     "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
     "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^5.5.15"
+        "compression": "^1.7.4",
+        "express": "^4.17.1",
+        "mongoose": "^5.5.15",
+        "morgan": "^1.10.0"
     }
-  }
+}
